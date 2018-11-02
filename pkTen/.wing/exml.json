@@ -1,0 +1,20 @@
+{
+  "global": {
+    "globalAdsorbEnable": false,
+    "globalAutoLayerMarkEnable": true,
+    "globalRulerEnable": true
+  },
+  "16583dfb771": {
+    "guideLines": [
+      {
+        "type": "h",
+        "pos": 50
+      }
+    ]
+  },
+  "16584fad6b6": {
+    "path": "..\\resource\\custom_skin\\car_animation.ts",
+    "class": "car_animation",
+    "parentPath": ""
+  }
+}

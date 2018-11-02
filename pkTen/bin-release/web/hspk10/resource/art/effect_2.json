@@ -1,0 +1,11 @@
+{"file":"effect_2.png","frames":{
+"2p_thundereffect_01_png":{"x":0,"y":0,"w":124,"h":32,"offX":12,"offY":12,"sourceW":150,"sourceH":50},
+"2p_thundereffect_02_png":{"x":0,"y":95,"w":123,"h":31,"offX":13,"offY":12,"sourceW":150,"sourceH":50},
+"2p_thundereffect_03_png":{"x":123,"y":125,"w":123,"h":31,"offX":13,"offY":12,"sourceW":150,"sourceH":50},
+"2p_thundereffect_04_png":{"x":124,"y":94,"w":123,"h":31,"offX":12,"offY":12,"sourceW":150,"sourceH":50},
+"2p_thundereffect_05_png":{"x":124,"y":63,"w":123,"h":31,"offX":12,"offY":12,"sourceW":150,"sourceH":50},
+"2p_thundereffect_06_png":{"x":125,"y":0,"w":123,"h":32,"offX":13,"offY":11,"sourceW":150,"sourceH":50},
+"2p_thundereffect_07_png":{"x":0,"y":126,"w":122,"h":30,"offX":13,"offY":12,"sourceW":150,"sourceH":50},
+"2p_thundereffect_08_png":{"x":0,"y":32,"w":124,"h":31,"offX":12,"offY":11,"sourceW":150,"sourceH":50},
+"2p_thundereffect_09_png":{"x":124,"y":32,"w":124,"h":31,"offX":12,"offY":12,"sourceW":150,"sourceH":50},
+"2p_thundereffect_10_png":{"x":0,"y":64,"w":123,"h":31,"offX":12,"offY":12,"sourceW":150,"sourceH":50}}}

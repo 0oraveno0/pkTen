@@ -1,0 +1,168 @@
+{
+	"groups": [
+		{
+			"keys": "count_wav,finish_wav,fire_wav,light_wav,light_0_wav,start_1_wav,start_2_wav,start_3_wav,win_wav,2p_background_jpg,2p_midground2_png,grey_png,p3_bg_jpg,white_png,car_json,cdn_json,effect_1_json,flag_json,effect_2_json,5p_bg_jpg,2p_foreground_jpg,4p_bg_jpg,blue_png,p4_car_json,1p_bg_jpg,small_json,icon_json",
+			"name": "resource"
+		},
+		{
+			"keys": "5p_bg_jpg,loading_bar_json",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"url": "config/description.json",
+			"type": "json",
+			"name": "description_json"
+		},
+		{
+			"url": "sound_effect/count.wav",
+			"type": "sound",
+			"name": "count_wav"
+		},
+		{
+			"url": "sound_effect/finish.wav",
+			"type": "sound",
+			"name": "finish_wav"
+		},
+		{
+			"url": "sound_effect/fire.wav",
+			"type": "sound",
+			"name": "fire_wav"
+		},
+		{
+			"url": "sound_effect/light.wav",
+			"type": "sound",
+			"name": "light_wav"
+		},
+		{
+			"url": "sound_effect/light_0.wav",
+			"type": "sound",
+			"name": "light_0_wav"
+		},
+		{
+			"url": "sound_effect/start_1.wav",
+			"type": "sound",
+			"name": "start_1_wav"
+		},
+		{
+			"url": "sound_effect/start_2.wav",
+			"type": "sound",
+			"name": "start_2_wav"
+		},
+		{
+			"url": "sound_effect/start_3.wav",
+			"type": "sound",
+			"name": "start_3_wav"
+		},
+		{
+			"url": "sound_effect/win.wav",
+			"type": "sound",
+			"name": "win_wav"
+		},
+		{
+			"url": "art/2p_background.jpg",
+			"type": "image",
+			"name": "2p_background_jpg"
+		},
+		{
+			"url": "art/2p_midground2.png",
+			"type": "image",
+			"name": "2p_midground2_png"
+		},
+		{
+			"url": "art/grey.png",
+			"type": "image",
+			"name": "grey_png"
+		},
+		{
+			"url": "art/p3_bg.jpg",
+			"type": "image",
+			"name": "p3_bg_jpg"
+		},
+		{
+			"url": "art/white.png",
+			"type": "image",
+			"name": "white_png"
+		},
+		{
+			"url": "art/car.json",
+			"type": "sheet",
+			"name": "car_json",
+			"subkeys": "p3_10_34_L_png,p3_10_34_R_png,p3_1_34_L_png,p3_1_34_R_png,p3_2_34_L_png,p3_2_34_R_png,p3_3_34_L_png,p3_3_34_R_png,p3_4_34_L_png,p3_4_34_R_png,p3_5_34_L_png,p3_5_34_R_png,p3_6_34_L_png,p3_6_34_R_png,p3_7_34_L_png,p3_7_34_R_png,p3_8_34_L_png,p3_8_34_R_png,p3_9_34_L_png,p3_9_34_R_png,p3_car_10_front_png,p3_car_1_front_png,p3_car_2_front_png,p3_car_3_front_png,p3_car_4_front_png,p3_car_5_front_png,p3_car_6_front_png,p3_car_7_front_png,p3_car_8_front_png,p3_car_9_front_png,p3_m_bronze_png,p3_m_gold_png,p3_m_sliver_png"
+		},
+		{
+			"url": "art/cdn.json",
+			"type": "sheet",
+			"name": "cdn_json",
+			"subkeys": "cdn_0_png,cdn_1_png,cdn_2_png,cdn_3_png,cdn_4_png,cdn_5_png,cdn_6_png,cdn_7_png,cdn_8_png,cdn_9_png"
+		},
+		{
+			"url": "art/effect_1.json",
+			"type": "sheet",
+			"name": "effect_1_json",
+			"subkeys": "2p_speeddash_effect_01_png,2p_speeddash_effect_02_png,2p_speeddash_effect_03_png,2p_speeddash_effect_04_png,2p_speeddash_effect_05_png,2p_speeddash_effect_06_png,2p_speeddash_effect_07_png,2p_speeddash_effect_08_png,2p_speeddash_effect_09_png,2p_speeddash_effect_10_png"
+		},
+		{
+			"url": "art/flag.json",
+			"type": "sheet",
+			"name": "flag_json",
+			"subkeys": "1p_lowbar_display_png,1p_lowbar_issuenumber_display_png,2p_goal_line_png,2p_goalflag_10_png,2p_goalflag_11_png,2p_goalflag_12_png,2p_goalflag_1_png,2p_goalflag_2_png,2p_goalflag_3_png,2p_goalflag_4_png,2p_goalflag_5_png,2p_goalflag_6_png,2p_goalflag_7_png,2p_goalflag_8_png,2p_goalflag_9_png,2p_topbar_display_png"
+		},
+		{
+			"url": "art/effect_2.json",
+			"type": "sheet",
+			"name": "effect_2_json",
+			"subkeys": "2p_thundereffect_01_png,2p_thundereffect_02_png,2p_thundereffect_03_png,2p_thundereffect_04_png,2p_thundereffect_05_png,2p_thundereffect_06_png,2p_thundereffect_07_png,2p_thundereffect_08_png,2p_thundereffect_09_png,2p_thundereffect_10_png"
+		},
+		{
+			"url": "art/5p_bg.jpg",
+			"type": "image",
+			"name": "5p_bg_jpg"
+		},
+		{
+			"url": "art/loading_bar.json",
+			"type": "sheet",
+			"name": "loading_bar_json",
+			"subkeys": "5p_loadingbar_full_png,5p_loadingbar_zero_png"
+		},
+		{
+			"url": "art/2p_foreground.jpg",
+			"type": "image",
+			"name": "2p_foreground_jpg"
+		},
+		{
+			"url": "art/4p_bg.jpg",
+			"type": "image",
+			"name": "4p_bg_jpg"
+		},
+		{
+			"url": "art/blue.png",
+			"type": "image",
+			"name": "blue_png"
+		},
+		{
+			"url": "art/p4_car.json",
+			"type": "sheet",
+			"name": "p4_car_json",
+			"subkeys": "4p_car_front_black_alpha_png,4p_front_car_10_png,4p_front_car_1_png,4p_front_car_2_png,4p_front_car_3_png,4p_front_car_4_png,4p_front_car_5_png,4p_front_car_6_png,4p_front_car_7_png,4p_front_car_8_png,4p_front_car_9_png,point_png"
+		},
+		{
+			"url": "art/1p_bg.jpg",
+			"type": "image",
+			"name": "1p_bg_jpg"
+		},
+		{
+			"url": "art/small.json",
+			"type": "sheet",
+			"name": "small_json",
+			"subkeys": "10_png,1_png,1p_button_left_idle_png,1p_button_right_idle_png,1p_car_10_png,1p_car_1_png,1p_car_2_png,1p_car_3_png,1p_car_4_png,1p_car_5_png,1p_car_6_png,1p_car_7_png,1p_car_8_png,1p_car_9_png,1p_countdownlight_png,1p_light_dim_png,1p_records_button_idle_png,1p_records_button_pressed_png,1p_topbar_rankdisplay_png,2_png,2p_boosteffect_00000_png,2p_boosteffect_00001_png,2p_boosteffect_00002_png,2p_boosteffect_00003_png,2p_boosteffect_00004_png,2p_boosteffect_00005_png,2p_boosteffect_00006_png,2p_boosteffect_00007_png,2p_boosteffect_00008_png,2p_boosteffect_00009_png,2p_boosteffect_00010_png,2p_boosteffect_00011_png,2p_boosteffect_00012_png,2p_boosteffect_00013_png,2p_boosteffect_00014_png,2p_boosteffect_00015_png,2p_boosteffect_00016_png,2p_boosteffect_00017_png,2p_boosteffect_00018_png,2p_boosteffect_00019_png,2p_boosteffect_00020_png,2p_boosteffect_00021_png,2p_boosteffect_00022_png,2p_boosteffect_00023_png,2p_car_10_side_png,2p_car_1_side_png,2p_car_2_side_png,2p_car_3_side_png,2p_car_4_side_png,2p_car_5_side_png,2p_car_6_side_png,2p_car_7_side_png,2p_car_8_side_png,2p_car_9_side_png,2p_goalflag_post_png,2p_mute_button_mute_png,2p_mute_button_unmute_png,2p_topbar_rankdisplay_png,2p_wheel_png,3_png,4_png,4p_back_button_idle_png,4p_back_button_pressed_png,5_png,6_png,7_png,8_png,9_png,confirm_button_png,confirm_button_pressed_png,irn_10_png,irn_1_png,irn_2_png,irn_3_png,irn_4_png,irn_5_png,irn_6_png,irn_7_png,irn_8_png,irn_9_png,mute_button_off_png,mute_button_on_png,notice_bg_png,p2_1000m_line_PK10_png"
+		},
+		{
+			"url": "art/icon.json",
+			"type": "sheet",
+			"name": "icon_json",
+			"subkeys": "1p_topbar_display_png,2p_midground1_fix_png,2p_topbar_logo_png,p2_goall_line_PK10_png"
+		}
+	]
+}
