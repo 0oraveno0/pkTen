@@ -341,7 +341,7 @@
 			</e:Group>
 			<e:Image id="p2_stop_img" width="1920" height="1260" x="-2" y="-2" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" source="white_png" alpha="0" touchEnabled="false"/>
 		</e:Group>
-		<e:Group id="record_gp" width="1920" height="1260" x="0" y="0" visible="false" locked="true">
+		<e:Group id="record_gp" width="1920" height="1260" x="0" y="0">
 			<e:Image width="1920" height="1260" x="-1.33" y="0" source="4p_bg_jpg"/>
 			<e:Group width="1920" height="220" x="0" y="0" scaleX="1" scaleY="1">
 				<e:Image width="1920" height="220" x="0" y="0" scaleX="1" scaleY="1" anchorOffsetY="0" source="1p_topbar_display_png" anchorOffsetX="0"/>
@@ -581,8 +581,8 @@
 				<e:Label text="车号                       第三名走势图" x="53.980000000000004" y="11.420000000000016" textColor="0x56a2c9" size="42" anchorOffsetY="0" height="45" anchorOffsetX="0" width="700" rotation="0.1" scaleX="1" scaleY="1" name="title"/>
 				<e:Group width="988" height="672.73" anchorOffsetX="0" anchorOffsetY="0" x="4.49" y="74.2" name="gp">
 					<e:Label text="1\n2\n3\n4\n5\n6\n7\n8\n9\n10" x="40.05" y="3.73" anchorOffsetX="0" width="79.04" anchorOffsetY="0" height="632.27" textColor="0x56a2c9" textAlign="center" size="63"/>
-					<e:Label text="00 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28" x="174.29" y="639.36" anchorOffsetX="0" width="801.33" anchorOffsetY="0" height="26.52" textColor="0x56a2c9" size="20" name="issue"/>
-					<e:Group width="800" height="25" x="175" y="595" anchorOffsetX="0" anchorOffsetY="0" name="gp">
+					<e:Label text="00 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29" x="144.29" y="639.36" anchorOffsetX="0" width="832" anchorOffsetY="0" height="26.52" textColor="0x56a2c9" size="20" name="issue"/>
+					<e:Group width="826" height="25" x="146" y="595" anchorOffsetX="0" anchorOffsetY="0" name="gp">
 						<e:Group width="20" height="20" x="0" y="0" anchorOffsetX="10" anchorOffsetY="10">
 							<e:Image width="20" height="20" x="10" y="10" anchorOffsetX="10" anchorOffsetY="10" name="point" source="point_png"/>
 							<e:Image width="1" height="3" x="10" y="10" name="line" anchorOffsetX="0" anchorOffsetY="1.5" rotation="45" source="blue_png"/>
@@ -699,6 +699,10 @@
 							<e:Image width="20" height="20" x="10" y="10" anchorOffsetX="10" anchorOffsetY="10" name="point" source="point_png"/>
 							<e:Image width="1" height="3" x="10" y="10" name="line" anchorOffsetX="0" anchorOffsetY="1.5" rotation="45" source="blue_png"/>
 						</e:Group>
+						<e:Group width="20" height="20" x="290" y="290" anchorOffsetX="10" anchorOffsetY="10">
+							<e:Image width="20" height="20" x="10" y="10" anchorOffsetX="10" anchorOffsetY="10" name="point" source="point_png"/>
+							<e:Image width="1" height="3" x="10" y="10" name="line" anchorOffsetX="0" anchorOffsetY="1.5" rotation="45" source="blue_png"/>
+						</e:Group>
 						<e:layout>
 							<e:HorizontalLayout gap="7.8"/>
 						</e:layout>
@@ -706,7 +710,7 @@
 				</e:Group>
 			</e:Group>
 		</e:Group>
-		<e:Image id="init_image" width="1920" height="1260" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="5p_bg_jpg" locked="true"/>
+		<e:Image id="init_image" width="1920" height="1260" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="5p_bg_jpg" locked="true" visible="false"/>
 		<e:Group id="notice_gp" width="1920" height="1260" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" locked="true" visible="false">
 			<e:Image width="1920" height="1260" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="grey_png"/>
 			<e:Image width="720" height="425" x="615" y="400" anchorOffsetX="0" anchorOffsetY="0" source="notice_bg_png"/>
