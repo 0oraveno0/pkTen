@@ -293,7 +293,7 @@
 		this.record["p4"]["chart"]["issue"] = issue_gp.getChildByName("issue");
 		this.record["p4"]["chart"]["chart"] = {}
 		let issue_gp_gp = issue_gp.getChildByName("gp");
-		for(let i = 0;i<29;i++){
+		for(let i = 0;i<30;i++){
 			this.record["p4"]["chart"]["chart"][String(i)] = {}
 			let issue_gp_gp_gp = issue_gp_gp.getChildAt(i);
 			this.record["p4"]["chart"]["chart"][String(i)]["point"] = issue_gp_gp_gp.getChildByName("point");
@@ -363,6 +363,10 @@
 			_n++;
 		}
 		
+		for(let i = 0; i < 30; i++){
+			this.record["p4"]["chart"]["chart"][String(i)]["point"].visible = false;
+		}
+
 		for(let i = graph_data_name.length - 1 ; i >= 0 ; i--){
 			let _i = Number(graph_data_name[i]) % 100;
 			if(_i < 10){
@@ -371,6 +375,7 @@
 				s+= String(_i) + " ";
 			}
 			let _point:eui.Image = this.record["p4"]["chart"]["chart"][String(i)]["point"];
+			_point.visible = true;
 			_point.$setY((10 - graph_data_num[i]) * - 64.5 + 10);
 			let _line:eui.Image = this.record["p4"]["chart"]["chart"][String(i)]["line"];
 			_line.$setY((10 - graph_data_num[i]) * - 64.5 + 10);
@@ -437,7 +442,8 @@
 				Main.timer_active = false;
 				console.log("reconnect");
 				this.init_image.visible = true;
-				this.sendData("reconnect");
+				let paramJson = {"code":"reconnect"};
+				this.sendData(JSON.stringify(paramJson));
 			}
 			Timer.start();
 		},Timer.start());
@@ -947,8 +953,13 @@
     private socket:egret.WebSocket;
 
     private initWebSocket():void {
-		this.host = "backend.0371zkw.com/lottery/17/";
+		//this.host = "backend.0371zkw.com/lottery/12/";
+		//this.host = "backend.0371zkw.com/lottery/17/";
+		//this.host = "backend.0371zkw.com/lottery/26/";
+		this.host = "backend.0371zkw.com/lottery/28/";
+
 		//this.host = "192.168.0.157:8088/lottery/28/";
+
 		if(document.location.protocol == 'https:'){
 			this.host = "wss://" + this.host;
 		}else{

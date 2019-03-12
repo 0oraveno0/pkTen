@@ -1,0 +1,17 @@
+{"file":"flag.png","frames":{
+"1p_lowbar_display":{"x":135,"y":203,"w":134,"h":23,"offX":0,"offY":0,"sourceW":134,"sourceH":23},
+"1p_lowbar_issuenumber_display":{"x":0,"y":203,"w":134,"h":23,"offX":0,"offY":0,"sourceW":134,"sourceH":23},
+"2p_goal_line":{"x":363,"y":0,"w":18,"h":180,"offX":0,"offY":0,"sourceW":18,"sourceH":180},
+"2p_topbar_display":{"x":269,"y":203,"w":97,"h":12,"offX":0,"offY":0,"sourceW":97,"sourceH":12},
+"2p_goalflag_1":{"x":89,"y":135,"w":88,"h":67,"offX":0,"offY":0,"sourceW":93,"sourceH":67},
+"2p_goalflag_10":{"x":0,"y":135,"w":88,"h":67,"offX":0,"offY":0,"sourceW":93,"sourceH":67},
+"2p_goalflag_11":{"x":265,"y":135,"w":87,"h":67,"offX":0,"offY":0,"sourceW":93,"sourceH":67},
+"2p_goalflag_12":{"x":178,"y":135,"w":87,"h":67,"offX":0,"offY":0,"sourceW":93,"sourceH":67},
+"2p_goalflag_2":{"x":270,"y":68,"w":89,"h":67,"offX":0,"offY":0,"sourceW":93,"sourceH":67},
+"2p_goalflag_3":{"x":91,"y":68,"w":89,"h":67,"offX":0,"offY":0,"sourceW":93,"sourceH":67},
+"2p_goalflag_4":{"x":0,"y":68,"w":90,"h":67,"offX":0,"offY":0,"sourceW":93,"sourceH":67},
+"2p_goalflag_5":{"x":182,"y":0,"w":90,"h":67,"offX":0,"offY":0,"sourceW":93,"sourceH":67},
+"2p_goalflag_6":{"x":91,"y":0,"w":90,"h":67,"offX":0,"offY":0,"sourceW":93,"sourceH":67},
+"2p_goalflag_7":{"x":0,"y":0,"w":90,"h":67,"offX":0,"offY":0,"sourceW":93,"sourceH":67},
+"2p_goalflag_8":{"x":273,"y":0,"w":90,"h":67,"offX":0,"offY":0,"sourceW":93,"sourceH":67},
+"2p_goalflag_9":{"x":180,"y":68,"w":89,"h":67,"offX":0,"offY":0,"sourceW":93,"sourceH":67}}}

@@ -266,7 +266,7 @@ var GameUI = (function (_super) {
         this.record["p4"]["chart"]["issue"] = issue_gp.getChildByName("issue");
         this.record["p4"]["chart"]["chart"] = {};
         var issue_gp_gp = issue_gp.getChildByName("gp");
-        for (var i = 0; i < 29; i++) {
+        for (var i = 0; i < 30; i++) {
             this.record["p4"]["chart"]["chart"][String(i)] = {};
             var issue_gp_gp_gp = issue_gp_gp.getChildAt(i);
             this.record["p4"]["chart"]["chart"][String(i)]["point"] = issue_gp_gp_gp.getChildByName("point");
@@ -326,6 +326,9 @@ var GameUI = (function (_super) {
             graph_data_num[_n] = this.content["record"]["data"].stat[num]["graph_data"][name];
             _n++;
         }
+        for (var i = 0; i < 30; i++) {
+            this.record["p4"]["chart"]["chart"][String(i)]["point"].visible = false;
+        }
         for (var i = graph_data_name.length - 1; i >= 0; i--) {
             var _i = Number(graph_data_name[i]) % 100;
             if (_i < 10) {
@@ -335,6 +338,7 @@ var GameUI = (function (_super) {
                 s += String(_i) + " ";
             }
             var _point = this.record["p4"]["chart"]["chart"][String(i)]["point"];
+            _point.visible = true;
             _point.$setY((10 - graph_data_num[i]) * -64.5 + 10);
             var _line = this.record["p4"]["chart"]["chart"][String(i)]["line"];
             _line.$setY((10 - graph_data_num[i]) * -64.5 + 10);
@@ -396,7 +400,8 @@ var GameUI = (function (_super) {
                 Main.timer_active = false;
                 console.log("reconnect");
                 _this.init_image.visible = true;
-                _this.sendData("reconnect");
+                var paramJson = { "code": "reconnect" };
+                _this.sendData(JSON.stringify(paramJson));
             }
             Timer.start();
         }, Timer.start());
@@ -899,6 +904,9 @@ var GameUI = (function (_super) {
         }
     };
     GameUI.prototype.initWebSocket = function () {
+        //this.host = "backend.0371zkw.com/lottery/12/";
+        //this.host = "backend.0371zkw.com/lottery/17/";
+        //this.host = "backend.0371zkw.com/lottery/26/";
         this.host = "backend.0371zkw.com/lottery/28/";
         //this.host = "192.168.0.157:8088/lottery/28/";
         if (document.location.protocol == 'https:') {
